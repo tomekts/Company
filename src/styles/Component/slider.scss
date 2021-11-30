@@ -1,0 +1,140 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+}
+
+.slider-container{ 
+    display: block;   
+    width: 100%;  
+    background-color: white;       
+}
+
+.slider-content{     
+    position: absolute; 
+    top: 0px;    
+    width: 100%;        
+}
+
+.menu-slider-container{ 
+    background-color: cadetblue;         
+}
+
+.main-slider-container{  
+    position: absolute;
+    width: 100%;
+    top:8.936vw;    
+    display: flex;
+    // background-color: yellow;    
+}
+.text-in-content{
+    color: white;
+    position: relative;    ;
+    top: 16vw;       
+    width: 50%;    
+    h1{       
+        position: relative;
+        font-weight: bold;
+        margin: 2vw 0px;
+        font-size: 3.38vw;        
+        left: 9.1vw;
+    }
+    p{        
+        position: relative;
+        font-size: 2.5vw;
+        margin: 0px;
+        left: 9.1vw;
+    }
+}
+.form-in-content{    
+    width: 50%;     
+
+    .font-28px{        
+        font-size: 1.45vw;
+    }
+
+    .font-18px{        
+        font-size: 0.93vw;
+    }
+    .font-bold{
+        font-weight: bold;
+    }
+
+    .agreement{
+        display: flex;
+        font-size: 0.8vw;        
+    }
+
+    .form{
+        padding: 20px;
+        margin: 0 auto;
+        width: 23vw;
+        background-color: white;
+        display: grid;
+    }
+    p{
+        padding: 0 5px;
+        margin: 0px;
+    }
+    input{
+        margin: 5px;
+        height: 2.7vw;
+        padding: 0 20px
+    }  
+
+    .button-send-form{
+        font-size: 0.93vw;
+        color: white;
+        text-align: center;
+        background-color: black;
+        border: none;
+
+        
+    }
+    .button-send-form:hover{
+        transition: 0.4s ease-in-out;
+        border: none;
+        color: black;
+        background-color: #ffcc48;
+        // filter: invert(100%);
+    }
+}
+
+
+.button-slider-container{  
+    position: absolute;
+    top: 42.86458vw;
+    input{        
+        width: 8.3vw;
+        height: 6.14583vw;
+    }
+    
+    :hover{
+        transition: 0.4s ease-in-out;
+        filter: invert(100%);
+    }
+    
+}
+
+.hidden-picture{    
+    height: 0px !important; 
+    opacity: 0 !important;   
+    overflow: hidden;
+    display: block;    
+}
+
+.slider-image-container{ 
+    width: 100%;       
+    margin: auto;         
+    img{      
+        transition: 0.1s ease-in-out;
+        opacity: 1; 
+        filter: brightness(70%);
+        height: auto;
+        width: 100%;        
+    }
+    
+}
+
+
+
