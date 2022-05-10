@@ -37,16 +37,63 @@ function Slider() {
 
   return (
     <div className="slider-container">
+      {/* section image */}
       <div className="slider-image-container">
-        <img alt="te" src={imageSlider1}></img>
-        <img alt="te" src={imageSlider2} className={"hidden-picture"}></img>
-        <img alt="te" src={imageSlider3} className={"hidden-picture"}></img>
+        <img alt="Bład zdjęcia" src={imageSlider1}></img>
+        <img
+          alt="Bład zdjęcia"
+          src={imageSlider2}
+          className={"hidden-picture"}
+        ></img>
+        <img
+          alt="Bład zdjęcia"
+          src={imageSlider3}
+          className={"hidden-picture"}
+        ></img>
+      </div>
+      {/* end section image */}
+
+      <div className="main-slider-container">
+        <div className="text-in-content">lewa stronb</div>{" "}
+        <div className="form-in-content">
+          <div className="form">
+            <div className="form-header">
+              <p className="font-28px font-bold">
+                Lorem ipsum <br></br> Lorem ipsum lorem ipsum
+              </p>
+              <p
+                className="font-18px"
+                style={{ color: "#727272", marginTop: "4px" }}
+              >
+                consectetur adipiscing elit. Ut auctor arcu
+              </p>
+              <p className="font-18px font-bold" style={{ marginTop: "13px" }}>
+                Zostaw kontakt, zadzwonimy do Ciebie
+              </p>
+            </div>
+            <div className="form-main">
+              <div className="form-input-section">
+                <input placeholder="Imię i nazwisko"></input>
+                <input placeholder="Telefon"></input>
+                <input placeholder="Email"></input>
+                <input placeholder="Lorem ipsum lorem ipsum"></input>
+              </div>
+              <div className="agreement">
+                <div>
+                  <input type="checkbox"></input>
+                </div>
+                <div>
+                  Wyrażam dobrowolną zgodę na przetwarzanie moich danych
+                  osobowych więcej...
+                </div>
+              </div>
+              <input className="form-button" type="text" value="Wyślij"></input>{" "}
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="slider-content">
-        <div className="menu-slider-container">belka bla bla bla</div>
-
-        <div className="main-slider-container">
+      {/* <div className="main-slider-container">
           <div className="text-in-content">
             <h1>Firma</h1>
             <p>Lorem ipsum dolor sit amet,</p>
@@ -55,18 +102,7 @@ function Slider() {
           <div className="form-in-content">
             <div className="form">
               <p className="font-28px font-bold">Lorem ipsum</p>
-              <p className="font-28px font-bold">Lorem ipsum lorem ipsum</p>
-              <p className="font-18px">
-                consectetur adipiscing elit. Ut auctor arcu{" "}
-              </p>
-              <p className="font-18px font-bold">
-                Zostaw kontakt, zadzwonimy do Ciebie
-              </p>
-              <input placeholder="Imie i nazwisko"></input>
-              <input placeholder="Telefon"></input>
-              <input placeholder="Email"></input>
-              <input placeholder="Lorem ipsum lorem ipsum"></input>
-              <div className="agreement">
+         
                 <div>
                   <input type="checkbox"></input>
                 </div>
@@ -83,22 +119,23 @@ function Slider() {
               ></input>
             </div>
           </div>
-        </div>
-        <div className="button-slider-container">
-          <input
-            id="button-slider-prev"
-            type="image"
-            src={arrowBack}
-            onClick={() => prev()}
-          ></input>
-          <input
-            id="button-slider-next"
-            type="image"
-            src={arrowNext}
-            onClick={() => next()}
-          ></input>
-        </div>
+        </div> */}
+      {/* button section */}
+      <div className="button-slider-container">
+        <input
+          id="button-slider-prev"
+          type="image"
+          src={arrowBack}
+          onClick={() => prev()}
+        ></input>
+        <input
+          id="button-slider-next"
+          type="image"
+          src={arrowNext}
+          onClick={() => next()}
+        ></input>
       </div>
+      {/* and button section */}
     </div>
   );
 }

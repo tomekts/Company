@@ -1,2 +1,8 @@
 @import "./variables/color.scss";
 @import "./Component/slider.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins";
+}
