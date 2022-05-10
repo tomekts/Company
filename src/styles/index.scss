@@ -12,7 +12,6 @@ body {
   position: absolute;
   display: flex;
   width: 100%;
-
   z-index: 10;
 }
 .navbar-logo {
@@ -24,7 +23,7 @@ body {
 .navbar-list {
   display: flex;
   color: white;
-  margin-left: 188px;
+  margin-left: 168px;
   margin-top: 30px;
 }
 .navbar-list ul {
@@ -32,9 +31,17 @@ body {
 }
 .navbar-list li {
   float: left;
-  margin-left: 78px;
+  margin-right: 78px;
 }
+
 .navbar-social {
+  margin-top: 7px;
   position: absolute;
   right: 175px;
+}
+
+@media screen and (max-width: 1490px) {
+  .navbar-list {
+    margin-left: 0px;
+  }
 }

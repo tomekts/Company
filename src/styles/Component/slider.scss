@@ -111,5 +111,19 @@ h1 {
     opacity: 1;
     filter: brightness(70%);
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-height: 830px) {
+  .main-slider-container {
+    top: 80px;
+  }
+
+  .slider-image-container {
+    img {
+      height: 830px;
+    }
   }
 }
