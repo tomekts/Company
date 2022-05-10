@@ -54,7 +54,13 @@ function Slider() {
       {/* end section image */}
 
       <div className="main-slider-container">
-        <div className="text-in-content">lewa stronb</div>{" "}
+        <div className="text-in-content">
+          <h1 className="font-bold">Firma</h1>
+          <p className="font-48px" style={{ paddingTop: "18px" }}>
+            Lorem ipsum dolor sit amet, <br></br>consectetur adipiscing elit. Ut
+            auctor
+          </p>
+        </div>
         <div className="form-in-content">
           <div className="form">
             <div className="form-header">
@@ -93,33 +99,6 @@ function Slider() {
         </div>
       </div>
 
-      {/* <div className="main-slider-container">
-          <div className="text-in-content">
-            <h1>Firma</h1>
-            <p>Lorem ipsum dolor sit amet,</p>
-            <p>consectetur adipiscing elit. Ut auctor</p>
-          </div>
-          <div className="form-in-content">
-            <div className="form">
-              <p className="font-28px font-bold">Lorem ipsum</p>
-         
-                <div>
-                  <input type="checkbox"></input>
-                </div>
-                <div>
-                  {" "}
-                  Wyrażam dobrowolną zgodę na przetwarzanie moich danych
-                  osobowych więcej...
-                </div>
-              </div>
-              <input
-                className="button-send-form"
-                type="text"
-                value="Wyślij"
-              ></input>
-            </div>
-          </div>
-        </div> */}
       {/* button section */}
       <div className="button-slider-container">
         <input
