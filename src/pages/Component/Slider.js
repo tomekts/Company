@@ -87,7 +87,7 @@ function Slider() {
                   osobowych więcej...
                 </div>
               </div>
-              <input className="form-button" type="text" value="WYŚLIJ"></input>
+              <button className="form-button">WYŚLIJ</button>
             </div>
           </div>
         </div>
