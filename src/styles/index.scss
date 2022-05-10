@@ -1,8 +1,40 @@
 @import "./variables/color.scss";
 @import "./Component/slider.scss";
+@import "./variables/font.scss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   padding: 0px;
   margin: 0px;
   font-family: "Poppins";
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  width: 100%;
+
+  z-index: 10;
+}
+.navbar-logo {
+  margin-left: 175px;
+  margin-top: 40px;
+  color: white;
+}
+
+.navbar-list {
+  display: flex;
+  color: white;
+  margin-left: 188px;
+  margin-top: 30px;
+}
+.navbar-list ul {
+  list-style-type: none;
+}
+.navbar-list li {
+  float: left;
+  margin-left: 78px;
+}
+.navbar-social {
+  position: absolute;
+  right: 175px;
 }
