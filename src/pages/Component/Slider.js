@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import imageSlider1 from "../../images/shutterstock_615439679.png";
 import imageSlider2 from "../../images/shutterstock_1090078049.png";
 import imageSlider3 from "../../images/shutterstock_1790190785.png";

@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import "../styles/index.scss";
 import Slider from "./Component/Slider";
 // styles
@@ -7,6 +8,7 @@ import Slider from "./Component/Slider";
 // markup
 const IndexPage = () => {
   return (
+    // section hero
     <>
       <Slider />
     </>
