@@ -1,20 +1,16 @@
-import * as React from "react"
-import '../styles/index.scss'
-import Slider from "./Component/Slider"
+import "../styles/index.scss";
+import Slider from "./Component/Slider";
 // styles
 
-
 // data
-
 
 // markup
 const IndexPage = () => {
   return (
-    <>    
-    <Slider/>
-    tutaj dalsza częsc
+    <>
+      <Slider />
     </>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
