@@ -101,20 +101,11 @@ function Slider() {
 
       {/* button section */}
       <div className="button-slider-container">
-        <div className="left">
-          <img
-            id="button-slider-prev"
-            src={arrowBack}
-            onClick={() => prev()}
-          ></img>
+        <div className="left" onClick={() => prev()}>
+          <img id="button-slider-prev" src={arrowBack}></img>
         </div>
-        <div className="right">
-          {" "}
-          <img
-            id="button-slider-next"
-            src={arrowNext}
-            onClick={() => next()}
-          ></img>
+        <div onClick={() => next()} className="right">
+          <img id="button-slider-next" src={arrowNext}></img>
         </div>
       </div>
       {/* and button section */}
