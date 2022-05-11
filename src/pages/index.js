@@ -48,7 +48,11 @@ const IndexPage = () => {
         <div className="advertisement">
           <div className="advertisement-up-line">
             <div className="advertisement-up-line-image-container">
-              <img alt="Bład zdjęcia" src={advertisementImage1}></img>
+              <img
+                className="picture"
+                alt="Bład zdjęcia"
+                src={advertisementImage1}
+              ></img>
               <div className="text">
                 <div className="square"></div>
                 <p className="font-28px font-bold name">Biuro</p>
@@ -63,7 +67,11 @@ const IndexPage = () => {
               className="advertisement-up-line-image-container"
               style={{ marginLeft: "30px" }}
             >
-              <img alt="Bład zdjęcia" src={advertisementImage2}></img>
+              <img
+                className="picture"
+                alt="Bład zdjęcia"
+                src={advertisementImage2}
+              ></img>
               <div className="text">
                 <div className="square"></div>
                 <p className="font-28px font-bold name">
@@ -79,7 +87,11 @@ const IndexPage = () => {
           </div>
           <div className="advertisement-down-line">
             <div className="advertisement-down-line-image-container">
-              <img alt="Bład zdjęcia" src={advertisementImage3}></img>
+              <img
+                className="picture"
+                alt="Bład zdjęcia"
+                src={advertisementImage3}
+              ></img>
               <div className="text">
                 <div className="square"></div>
                 <p className="font-28px font-bold name">Biuro lorem</p>
@@ -94,7 +106,11 @@ const IndexPage = () => {
               className="advertisement-down-line-image-container"
               style={{ marginLeft: "30px" }}
             >
-              <img alt="Bład zdjęcia" src={advertisementImage4}></img>
+              <img
+                className="picture"
+                alt="Bład zdjęcia"
+                src={advertisementImage4}
+              ></img>
               <div className="text">
                 <div className="square"></div>
                 <p className="font-28px font-bold name">
