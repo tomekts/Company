@@ -33,6 +33,24 @@ body {
 .navbar-list li {
   float: left;
   margin-right: 78px;
+  padding-bottom: 10px;
+}
+.navbar-list li::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 1px;
+  width: 10px;
+  transition: width 0.7s ease;
+}
+.navbar-list li:hover::after {
+  width: 100%;
+  background-color: white;
+}
+.navbar-list li:hover {
+  cursor: default;
 }
 
 .navbar-social {
