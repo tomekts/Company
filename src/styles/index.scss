@@ -84,6 +84,9 @@ body {
     object-fit: cover;
     opacity: 71%;
   }
+  .picture {
+    transition: 0.2s ease-out;
+  }
   .text {
     position: absolute;
     top: 29px;
@@ -145,6 +148,9 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 71%;
+  }
+  .picture {
+    transition: 0.2s ease-out;
   }
   .text {
     position: absolute;
