@@ -6,7 +6,7 @@ import advertisementImage1 from "../images/advertisement1.png";
 import advertisementImage2 from "../images/advertisement2.png";
 import advertisementImage3 from "../images/advertisement3.png";
 import advertisementImage4 from "../images/advertisement4.png";
-import arrowNext from "../images/arrowAdvertisement.svg";
+import arrowNext from "../images/arrow_right.svg";
 
 import Slider from "./Component/Slider";
 

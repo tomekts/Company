@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import imageSlider1 from "../../images/shutterstock_615439679.png";
-import imageSlider2 from "../../images/shutterstock_1090078049.png";
-import imageSlider3 from "../../images/shutterstock_1790190785.png";
-import arrowBack from "../../images/arro_left.png";
-import arrowNext from "../../images/arro_right.png";
+import imageSlider1 from "../../images/hero1.png";
+import imageSlider2 from "../../images/hero2.png";
+import imageSlider3 from "../../images/hero3.png";
+import arrowBack from "../../images/arrow_left.svg";
+import arrowNext from "../../images/arrow_right.svg";
 import "../../styles/Component/slider.scss";
 function Slider() {
   let counter = 0;
@@ -101,18 +101,21 @@ function Slider() {
 
       {/* button section */}
       <div className="button-slider-container">
-        <input
-          id="button-slider-prev"
-          type="image"
-          src={arrowBack}
-          onClick={() => prev()}
-        ></input>
-        <input
-          id="button-slider-next"
-          type="image"
-          src={arrowNext}
-          onClick={() => next()}
-        ></input>
+        <div className="left">
+          <img
+            id="button-slider-prev"
+            src={arrowBack}
+            onClick={() => prev()}
+          ></img>
+        </div>
+        <div className="right">
+          {" "}
+          <img
+            id="button-slider-next"
+            src={arrowNext}
+            onClick={() => next()}
+          ></img>
+        </div>
       </div>
       {/* and button section */}
     </div>
