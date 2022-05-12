@@ -7,6 +7,13 @@ import advertisementImage2 from "../images/advertisement2.png";
 import advertisementImage3 from "../images/advertisement3.png";
 import advertisementImage4 from "../images/advertisement4.png";
 import arrowNext from "../images/arrow_right.svg";
+import wallet from "../images/wallet.svg";
+import tea from "../images/tea.svg";
+import shelf from "../images/shelf.svg";
+import desk from "../images/desk.svg";
+import room from "../images/room.svg";
+import people from "../images/people.svg";
+import computer from "../images/computer.svg";
 
 import Slider from "./Component/Slider";
 
@@ -126,6 +133,69 @@ const IndexPage = () => {
           </div>
         </div>
         {/* end section advertisement */}
+        {/* section equipment */}
+        <div className="equipment">
+          <div className="equipment-up-line">
+            <div className="text-equipment">
+              <p className="font-48px font-bold">
+                Lorem <br></br>ipsum dolor <br></br>sit amet, <br></br>conse
+              </p>
+              <div className="line"></div>
+            </div>
+            <div className="box">
+              <img src={wallet}></img>
+              <p className="font-28px">Lorem ipsum</p>
+            </div>
+            <div style={{ marginLeft: "30px" }} className="box">
+              <img src={tea}></img>
+              <p className="font-28px">
+                Lorem ipsum <br></br>dolor sit amet conse
+              </p>
+            </div>
+            <div className="box">
+              <img src={shelf}></img>
+              <p className="font-28px">
+                Lorem ipsum <br></br>dolor sit amet, conse
+              </p>
+            </div>
+          </div>
+          <div className="equipment-down-line">
+            <div className="box">
+              <img src={computer}></img>
+              <p className="font-28px">
+                Lorem ipsum <br></br>
+                dolor sit amet, conse
+              </p>
+            </div>
+            <div className="box">
+              <img src={desk}></img>
+              <p className="font-28px">
+                Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>ipsum
+                lorem ipsum
+              </p>
+            </div>
+            <div style={{ marginLeft: "30px" }} className="box">
+              <img src={room}></img>
+              <p className="font-28px">
+                Lorem ipsum dolor sit <br></br> amet, conse <br></br>lorem ipsum
+                lorem
+              </p>
+            </div>
+            <div className="box">
+              <img src={people}></img>
+              <p className="font-28px">
+                Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>ipsum
+              </p>
+            </div>
+          </div>
+          <div className="equipment-button">
+            <button>DOWIEDZ SIĘ WIĘCEJ</button>
+            <div className="arrow">
+              <img src={arrowNext}></img>
+            </div>
+          </div>
+        </div>
+        {/* end section equipment */}
       </body>
     </>
   );

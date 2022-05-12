@@ -231,3 +231,69 @@ body {
     height: 21px;
   }
 }
+
+.equipment {
+  margin-top: 140px;
+  margin-right: 175px;
+  margin-left: 175px;
+  .box {
+    width: 25%;
+    img {
+      margin-top: 109px;
+    }
+  }
+  .equipment-button {
+    margin-bottom: 100px;
+    height: 78px;
+    width: 380px;
+    display: flex;
+    margin-top: 103px;
+    background-color: black;
+    .arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 78px;
+      background-color: black;
+    }
+    img {
+      filter: invert(100%);
+      height: 28px;
+    }
+    button {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 100%;
+      width: 302px;
+      background: linear-gradient(to right, #ffcc48 50%, black 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all 0.2s ease-out;
+      border: none;
+    }
+    button:hover {
+      transition: 0.2s ease-in-out;
+      border: none;
+      color: black;
+      background-position: left bottom;
+    }
+  }
+}
+.equipment-up-line {
+  display: flex;
+  .text-equipment {
+    width: 25%;
+    .line {
+      background-color: black;
+      margin-top: 50px;
+      margin-bottom: 12px;
+      height: 4px;
+      width: 40%;
+    }
+  }
+}
+.equipment-down-line {
+  display: flex;
+}
