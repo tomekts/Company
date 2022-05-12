@@ -237,9 +237,21 @@ body {
   margin-right: 175px;
   margin-left: 175px;
   .box {
+    display: flex;
+    flex-direction: column;
     width: 25%;
+    height: 380px;
+    .image-container {
+      display: flex;
+      height: 60%;
+    }
+    .text-container {
+      p {
+        padding-top: 10px;
+      }
+    }
     img {
-      margin-top: 109px;
+      margin-top: 27%;
     }
   }
   .equipment-button {

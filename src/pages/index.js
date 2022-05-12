@@ -143,49 +143,78 @@ const IndexPage = () => {
               <div className="line"></div>
             </div>
             <div className="box">
-              <img src={wallet}></img>
-              <p className="font-28px">Lorem ipsum</p>
+              <div className="image-container">
+                <img src={wallet}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">Lorem ipsum</p>
+              </div>
             </div>
             <div style={{ marginLeft: "30px" }} className="box">
-              <img src={tea}></img>
-              <p className="font-28px">
-                Lorem ipsum <br></br>dolor sit amet conse
-              </p>
+              <div className="image-container">
+                <img src={tea}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum <br></br>dolor sit amet conse
+                </p>
+              </div>
             </div>
             <div className="box">
-              <img src={shelf}></img>
-              <p className="font-28px">
-                Lorem ipsum <br></br>dolor sit amet, conse
-              </p>
+              <div className="image-container">
+                <img src={shelf}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum <br></br>dolor sit amet, conse
+                </p>
+              </div>
             </div>
           </div>
           <div className="equipment-down-line">
             <div className="box">
-              <img src={computer}></img>
-              <p className="font-28px">
-                Lorem ipsum <br></br>
-                dolor sit amet, conse
-              </p>
+              <div className="image-container">
+                <img src={computer}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum <br></br>
+                  dolor sit amet, conse
+                </p>
+              </div>
             </div>
             <div className="box">
-              <img src={desk}></img>
-              <p className="font-28px">
-                Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>ipsum
-                lorem ipsum
-              </p>
+              <div className="image-container">
+                <img src={desk}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>
+                  ipsum lorem ipsum
+                </p>
+              </div>
             </div>
             <div style={{ marginLeft: "30px" }} className="box">
-              <img src={room}></img>
-              <p className="font-28px">
-                Lorem ipsum dolor sit <br></br> amet, conse <br></br>lorem ipsum
-                lorem
-              </p>
+              <div className="image-container">
+                <img src={room}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum dolor sit <br></br> amet, conse <br></br>lorem
+                  ipsum lorem
+                </p>
+              </div>
             </div>
             <div className="box">
-              <img src={people}></img>
-              <p className="font-28px">
-                Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>ipsum
-              </p>
+              <div className="image-container">
+                <img src={people}></img>
+              </div>
+              <div className="text-container">
+                <p className="font-28px">
+                  Lorem ipsum dolor sit <br></br> amet, conse lorem <br></br>
+                  ipsum
+                </p>
+              </div>
             </div>
           </div>
           <div className="equipment-button">
