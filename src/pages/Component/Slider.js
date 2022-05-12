@@ -23,7 +23,7 @@ function Slider() {
   const prev = () => {
     const countImage = document.querySelectorAll(".slider-image-container img");
 
-    if (counter == 0) {
+    if (counter === 0) {
       counter = countImage.length - 1;
     } else {
       counter--;
@@ -102,10 +102,10 @@ function Slider() {
       {/* button section */}
       <div className="button-slider-container">
         <div className="left" onClick={() => prev()}>
-          <img id="button-slider-prev" src={arrowBack}></img>
+          <img id="button-slider-prev" src={arrowBack} alt="zmień"></img>
         </div>
         <div onClick={() => next()} className="right">
-          <img id="button-slider-next" src={arrowNext}></img>
+          <img id="button-slider-next" src={arrowNext} alt="zmień"></img>
         </div>
       </div>
       {/* and button section */}

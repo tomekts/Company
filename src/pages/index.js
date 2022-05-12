@@ -107,8 +107,8 @@ const IndexPage = () => {
             <div className="advertisement-down-line-image-container">
               <img
                 className="picture"
-                alt="Bład zdjęcia"
                 src={advertisementImage3}
+                alt="Bład zdjęcia"
               ></img>
               <div className="text">
                 <div className="square"></div>
@@ -155,7 +155,7 @@ const IndexPage = () => {
             </div>
             <div className="box">
               <div className="image-container">
-                <img src={wallet}></img>
+                <img src={wallet} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">Lorem ipsum</p>
@@ -163,7 +163,7 @@ const IndexPage = () => {
             </div>
             <div style={{ marginLeft: "30px" }} className="box">
               <div className="image-container">
-                <img src={tea}></img>
+                <img src={tea} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -173,7 +173,7 @@ const IndexPage = () => {
             </div>
             <div className="box">
               <div className="image-container">
-                <img src={shelf}></img>
+                <img src={shelf} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -185,7 +185,7 @@ const IndexPage = () => {
           <div className="equipment-down-line">
             <div className="box">
               <div className="image-container">
-                <img src={computer}></img>
+                <img src={computer} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -196,7 +196,7 @@ const IndexPage = () => {
             </div>
             <div className="box">
               <div className="image-container">
-                <img src={desk}></img>
+                <img src={desk} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -207,7 +207,7 @@ const IndexPage = () => {
             </div>
             <div style={{ marginLeft: "30px" }} className="box">
               <div className="image-container">
-                <img src={room}></img>
+                <img src={room} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -218,7 +218,7 @@ const IndexPage = () => {
             </div>
             <div className="box">
               <div className="image-container">
-                <img src={people}></img>
+                <img src={people} alt="Bład zdjęcia"></img>
               </div>
               <div className="text-container">
                 <p className="font-28px">
@@ -231,7 +231,7 @@ const IndexPage = () => {
           <div className="equipment-button">
             <button>DOWIEDZ SIĘ WIĘCEJ</button>
             <div className="arrow">
-              <img src={arrowNext}></img>
+              <img src={arrowNext} alt="przejdz"></img>
             </div>
           </div>
         </div>
@@ -246,10 +246,10 @@ const IndexPage = () => {
             </p>
           </div>
           <div className="square">
-            <img src={squareIcon}></img>
+            <img src={squareIcon} alt="Bład zdjęcia"></img>
           </div>
           <div className="image">
-            <img src={compareImage}></img>
+            <img src={compareImage} alt="Bład zdjęcia"></img>
           </div>
         </div>
         {/* end secion compare */}
@@ -260,7 +260,7 @@ const IndexPage = () => {
           </div>
           <div className="container">
             <div className="box">
-              <img src={topicalityImage1}></img>
+              <img src={topicalityImage1} alt="Bład zdjęcia"></img>
               <p style={{ marginTop: "33px" }} className="font-18px">
                 01.01.2021
               </p>
@@ -268,12 +268,12 @@ const IndexPage = () => {
                 Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
                 elit.
               </p>
-              <a style={{ marginTop: "19px" }} href="">
+              <a style={{ marginTop: "19px" }} href="/">
                 Więcej
               </a>
             </div>
             <div style={{ marginLeft: "110px" }} className="box">
-              <img src={topicalityImage2}></img>
+              <img src={topicalityImage2} alt="Bład zdjęcia"></img>
               <p style={{ marginTop: "33px" }} className="font-18px">
                 01.01.2021
               </p>
@@ -281,12 +281,12 @@ const IndexPage = () => {
                 Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
                 elit.
               </p>
-              <a style={{ marginTop: "19px" }} href="">
+              <a style={{ marginTop: "19px" }} href="/">
                 Więcej
               </a>
             </div>
             <div style={{ marginLeft: "110px" }} className="box">
-              <img src={topicalityImage3}></img>
+              <img src={topicalityImage3} alt="Bład zdjęcia"></img>
               <p style={{ marginTop: "33px" }} className="font-18px">
                 01.01.2021
               </p>
@@ -294,7 +294,7 @@ const IndexPage = () => {
                 Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
                 elit.
               </p>
-              <a style={{ marginTop: "19px" }} href="">
+              <a style={{ marginTop: "19px" }} href="/">
                 Więcej
               </a>
             </div>{" "}
@@ -308,15 +308,15 @@ const IndexPage = () => {
               <img src={arrowBack} alt="przejdz"></img>
             </div>
             <div className="image">
-              <img src={galeryImage1}></img>
+              <img src={galeryImage1} alt="Bład zdjęcia"></img>
             </div>
           </div>
           <div className="main-site">
             <div className="up-image">
-              <img src={galeryImage2}></img>
+              <img src={galeryImage2} alt="Bład zdjęcia"></img>
             </div>
             <div className="down-image">
-              <img src={galeryImage3}></img>
+              <img src={galeryImage3} alt="Bład zdjęcia"></img>
             </div>
           </div>
           <div className="right-site">
@@ -328,7 +328,7 @@ const IndexPage = () => {
               <div className="line"></div>
             </div>
             <div className="image">
-              <img src={galeryImage4}></img>
+              <img src={galeryImage4} alt="Bład zdjęcia"></img>
             </div>
           </div>
         </div>
@@ -336,7 +336,7 @@ const IndexPage = () => {
         {/* footer */}
         <div className="footer">
           <div className="square">
-            <img src={footerSquere}></img>
+            <img src={footerSquere} alt="Bład zdjęcia"></img>
           </div>
           <div className="left-site">
             <p style={{ marginTop: "80px" }} className="font-65px font-bold">
@@ -376,7 +376,7 @@ const IndexPage = () => {
           <div className="rigth-site">
             <div className="text">
               <p className="font-12px">Proudly designed by</p>
-              <img src={LogoAdream}></img>
+              <img src={LogoAdream} alt="Bład zdjęcia"></img>
             </div>
           </div>
         </div>
