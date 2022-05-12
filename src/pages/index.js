@@ -24,7 +24,7 @@ import galeryImage1 from "../images/galery1.png";
 import galeryImage2 from "../images/galery2.png";
 import galeryImage3 from "../images/galery3.png";
 import galeryImage4 from "../images/galery4.png";
-import LogoAdream from "../images/Logo_adream.png";
+import LogoAdream from "../images/logo_adream.png";
 import Slider from "./Component/Slider";
 import footerSquere from "../images/footer_squere.svg";
 
