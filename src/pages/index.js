@@ -16,6 +16,9 @@ import people from "../images/people.svg";
 import computer from "../images/computer.svg";
 import compareImage from "../images/compare.png";
 import squareIcon from "../images/square.svg";
+import topicalityImage1 from "../images/topicality1.png";
+import topicalityImage2 from "../images/topicality2.png";
+import topicalityImage3 from "../images/topicality3.png";
 import Slider from "./Component/Slider";
 
 // styles
@@ -244,7 +247,52 @@ const IndexPage = () => {
         </div>
         {/* end secion compare */}
         {/* section topicality */}
-        <div className="topicality">test</div>
+        <div className="topicality">
+          <div className="main-text">
+            <p className="font-65px font-bold">Aktualności</p>
+          </div>
+          <div className="container">
+            <div className="box">
+              <img src={topicalityImage1}></img>
+              <p style={{ marginTop: "33px" }} className="font-18px">
+                01.01.2021
+              </p>
+              <p style={{ marginTop: "16px" }} className="font-28px font-bold">
+                Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
+                elit.
+              </p>
+              <a style={{ marginTop: "19px" }} href="">
+                Więcej
+              </a>
+            </div>
+            <div style={{ marginLeft: "110px" }} className="box">
+              <img src={topicalityImage2}></img>
+              <p style={{ marginTop: "33px" }} className="font-18px">
+                01.01.2021
+              </p>
+              <p style={{ marginTop: "16px" }} className="font-28px font-bold">
+                Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
+                elit.
+              </p>
+              <a style={{ marginTop: "19px" }} href="">
+                Więcej
+              </a>
+            </div>
+            <div style={{ marginLeft: "110px" }} className="box">
+              <img src={topicalityImage3}></img>
+              <p style={{ marginTop: "33px" }} className="font-18px">
+                01.01.2021
+              </p>
+              <p style={{ marginTop: "16px" }} className="font-28px font-bold">
+                Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing
+                elit.
+              </p>
+              <a style={{ marginTop: "19px" }} href="">
+                Więcej
+              </a>
+            </div>{" "}
+          </div>
+        </div>
         {/* end section topicality */}
       </body>
     </>

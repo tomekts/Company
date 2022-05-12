@@ -319,11 +319,11 @@ body {
     bottom: (10vw);
   }
   .square {
+    position: absolute;
     z-index: 10;
     width: 15%;
     margin-top: -(3vw);
     right: 175px;
-    position: absolute;
   }
   img {
     margin-left: 175px;
@@ -340,5 +340,23 @@ body {
   }
 }
 .topicality {
-  background-color: blue;
+  margin-top: 137px;
+  margin-left: 175px;
+  margin-right: 175px;
+  a {
+    color: black;
+  }
+  img {
+    width: 100%;
+  }
+  .main-text {
+    text-align: center;
+  }
+  .container {
+    margin-top: 113px;
+    display: flex;
+  }
+  .box {
+    width: 33%;
+  }
 }
