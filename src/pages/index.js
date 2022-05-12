@@ -14,7 +14,8 @@ import desk from "../images/desk.svg";
 import room from "../images/room.svg";
 import people from "../images/people.svg";
 import computer from "../images/computer.svg";
-
+import compareImage from "../images/compare.png";
+import squareIcon from "../images/square.svg";
 import Slider from "./Component/Slider";
 
 // styles
@@ -225,6 +226,22 @@ const IndexPage = () => {
           </div>
         </div>
         {/* end section equipment */}
+        {/* secion compare */}
+        <div className="compare">
+          <div className="text">
+            <p className="font-65px font-bold">
+              Lorem ipsum <br></br>
+              vs własne biuro
+            </p>
+          </div>
+          <div className="square">
+            <img src={squareIcon}></img>
+          </div>
+          <div className="image">
+            <img src={compareImage}></img>
+          </div>
+        </div>
+        {/* end secion compare */}
       </body>
     </>
   );

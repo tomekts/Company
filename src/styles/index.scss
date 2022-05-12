@@ -309,3 +309,34 @@ body {
 .equipment-down-line {
   display: flex;
 }
+.compare {
+  position: relative;
+  margin-left: 175px;
+  margin-right: 175px;
+  background-color: #ffcc48;
+  .text {
+    z-index: 10;
+    position: absolute;
+    top: 160px;
+  }
+  @media screen and (max-width: 1600px) {
+    .text {
+      top: 80px;
+    }
+  }
+  .square {
+    z-index: 10;
+    width: 15%;
+    margin-top: -(3vw);
+    right: 175px;
+    position: absolute;
+    top: 0px;
+  }
+  img {
+    position: absolute;
+    top: 0px;
+    right: -175px;
+    width: 100%;
+    opacity: 71%;
+  }
+}
