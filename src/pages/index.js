@@ -7,6 +7,8 @@ import advertisementImage2 from "../images/advertisement2.png";
 import advertisementImage3 from "../images/advertisement3.png";
 import advertisementImage4 from "../images/advertisement4.png";
 import arrowNext from "../images/arrow_right.svg";
+import arrowBack from "../images/arrow_left.svg";
+
 import wallet from "../images/wallet.svg";
 import tea from "../images/tea.svg";
 import shelf from "../images/shelf.svg";
@@ -19,6 +21,10 @@ import squareIcon from "../images/square.svg";
 import topicalityImage1 from "../images/topicality1.png";
 import topicalityImage2 from "../images/topicality2.png";
 import topicalityImage3 from "../images/topicality3.png";
+import galeryImage1 from "../images/galery1.png";
+import galeryImage2 from "../images/galery2.png";
+import galeryImage3 from "../images/galery3.png";
+import galeryImage4 from "../images/galery4.png";
 import Slider from "./Component/Slider";
 
 // styles
@@ -294,6 +300,38 @@ const IndexPage = () => {
           </div>
         </div>
         {/* end section topicality */}
+        {/* section galery */}
+        <div className="galery">
+          <div className="left-site">
+            <div className="arrow">
+              <img src={arrowBack} alt="przejdz"></img>
+            </div>
+            <div className="image">
+              <img src={galeryImage1}></img>
+            </div>
+          </div>
+          <div className="main-site">
+            <div className="up-image">
+              <img src={galeryImage2}></img>
+            </div>
+            <div className="down-image">
+              <img src={galeryImage3}></img>
+            </div>
+          </div>
+          <div className="right-site">
+            <div className="arrow">
+              <img src={arrowNext} alt="przejdz"></img>
+            </div>
+            <div className="text">
+              <p className="font-65px font-bold">Galeria</p>
+              <div className="line"></div>
+            </div>
+            <div className="image">
+              <img src={galeryImage4}></img>
+            </div>
+          </div>
+        </div>
+        {/* end section galery */}
       </body>
     </>
   );
