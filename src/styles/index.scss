@@ -313,16 +313,10 @@ body {
   position: relative;
   margin-left: 175px;
   margin-right: 175px;
-  background-color: #ffcc48;
   .text {
     z-index: 10;
     position: absolute;
-    top: 160px;
-  }
-  @media screen and (max-width: 1600px) {
-    .text {
-      top: 80px;
-    }
+    bottom: (10vw);
   }
   .square {
     z-index: 10;
@@ -330,13 +324,21 @@ body {
     margin-top: -(3vw);
     right: 175px;
     position: absolute;
-    top: 0px;
   }
   img {
-    position: absolute;
-    top: 0px;
-    right: -175px;
+    margin-left: 175px;
     width: 100%;
     opacity: 71%;
   }
+  .line {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    bottom: (4vw);
+    height: 8px;
+    width: 40%;
+  }
+}
+.topicality {
+  background-color: blue;
 }

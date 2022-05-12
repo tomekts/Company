@@ -228,6 +228,7 @@ const IndexPage = () => {
         {/* end section equipment */}
         {/* secion compare */}
         <div className="compare">
+          <div className="line"></div>
           <div className="text">
             <p className="font-65px font-bold">
               Lorem ipsum <br></br>
@@ -242,6 +243,9 @@ const IndexPage = () => {
           </div>
         </div>
         {/* end secion compare */}
+        {/* section topicality */}
+        <div className="topicality">test</div>
+        {/* end section topicality */}
       </body>
     </>
   );
