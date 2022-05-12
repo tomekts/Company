@@ -8,7 +8,6 @@ import advertisementImage3 from "../images/advertisement3.png";
 import advertisementImage4 from "../images/advertisement4.png";
 import arrowNext from "../images/arrow_right.svg";
 import arrowBack from "../images/arrow_left.svg";
-
 import wallet from "../images/wallet.svg";
 import tea from "../images/tea.svg";
 import shelf from "../images/shelf.svg";
@@ -25,7 +24,9 @@ import galeryImage1 from "../images/galery1.png";
 import galeryImage2 from "../images/galery2.png";
 import galeryImage3 from "../images/galery3.png";
 import galeryImage4 from "../images/galery4.png";
+import LogoAdream from "../images/Logo_adream.png";
 import Slider from "./Component/Slider";
+import footerSquere from "../images/footer_squere.svg";
 
 // styles
 
@@ -332,6 +333,54 @@ const IndexPage = () => {
           </div>
         </div>
         {/* end section galery */}
+        {/* footer */}
+        <div className="footer">
+          <div className="square">
+            <img src={footerSquere}></img>
+          </div>
+          <div className="left-site">
+            <p style={{ marginTop: "80px" }} className="font-65px font-bold">
+              LOGO
+            </p>
+
+            <p style={{ marginTop: "57px" }} className="font-16px">
+              ul. Towarowa 5/6 <br></br> 31-000 Kraków
+            </p>
+            <p></p>
+            <p className="font-16px font-bold">
+              +48 999 999 999 <br></br>email@email.com
+            </p>
+            <p
+              style={{ marginTop: "147px", marginBottom: "51px" }}
+              className="font-12px"
+            >
+              Polityka prywatności
+            </p>
+          </div>
+          <div className="main-site font-16px">
+            <div className="coll">
+              <ul>
+                <li>Strona główna</li>
+                <li>Poznaj przestrzeń</li>
+                <li>Oferta</li>
+              </ul>
+            </div>
+            <div className="coll">
+              <ul>
+                <li>Lokalizacja</li>
+                <li>Własne biuro</li>
+                <li>Kontakt</li>
+              </ul>
+            </div>
+          </div>
+          <div className="rigth-site">
+            <div className="text">
+              <p className="font-12px">Proudly designed by</p>
+              <img src={LogoAdream}></img>
+            </div>
+          </div>
+        </div>
+        {/* end footer */}
       </body>
     </>
   );

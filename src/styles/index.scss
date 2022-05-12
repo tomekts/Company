@@ -473,3 +473,51 @@ body {
     }
   }
 }
+.footer {
+  display: flex;
+  position: relative;
+  margin-top: 140px;
+  color: white;
+  background-color: black;
+  .square {
+    position: absolute;
+    top: -30px;
+    right: 175px;
+  }
+  .left-site {
+    margin-left: 172px;
+    width: 30%;
+  }
+  .main-site {
+    display: flex;
+    .coll {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      height: 100%;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      float: left;
+      margin-right: 78px;
+      padding-bottom: 10px;
+    }
+    width: 50%;
+  }
+  .rigth-site {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    width: 20%;
+    img {
+      margin-left: 8px;
+      height: 18px;
+      width: 70px;
+    }
+    .text {
+      display: flex;
+    }
+  }
+}
