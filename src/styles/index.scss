@@ -277,7 +277,7 @@ body {
       font-size: 18px;
       font-weight: bold;
       letter-spacing: 2px;
-      height: 100%;
+      height: 101%;
       width: 302px;
       background: linear-gradient(to right, #ffcc48 50%, black 50%);
       background-size: 200% 100%;
@@ -460,10 +460,10 @@ body {
       height: 40%;
       text-align: center;
       .line {
+        margin-top: 55px;
         z-index: 1;
         background-color: black;
-        bottom: (4vw);
-        height: 8px;
+        height: 12px;
         margin-left: -(5vw);
         width: 80%;
       }
