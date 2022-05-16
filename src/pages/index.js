@@ -36,6 +36,9 @@ import footerSquere from "../images/footer_squere.svg";
 const IndexPage = () => {
   return (
     <>
+      <head>
+        <title>Company Site</title>
+      </head>
       <body>
         {/* navbar */}
         <div className="navbar">
